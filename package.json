@@ -1,0 +1,16 @@
+{
+  "name": "aws-cloudwatch-schedule-lambda",
+  "version": "1.0.0",
+  "description": "schedule a lambda function using cloud watch",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sduggireddy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.6",
+    "serverless-offline": "^3.25.1",
+    "serverless-plugin-typescript": "^1.1.5"
+  }
+}
